@@ -51,14 +51,14 @@
       "UID": "c1",
       "capacitance": "2.0e-07",
       "connections": "h11,h17",
-      "label": "C1"
+      "label": "C"
     },
     {
       "type": "inductor",
       "UID": "l1",
       "inductance": "2.0e-03",
       "connections": "i5,i11",
-      "label": "L1"
+      "label": "L"
     },
     {
       "type": "wire",
@@ -82,7 +82,7 @@
       "notes": "For this circuit:<br>&nbsp;&nbsp; <b>R<sub>1</sub></b> = [Math.round(r1.resistance)] ohms<br>&nbsp;&nbsp; <b>R<sub>2</sub></b> = [Math.round(r2.resistance)] ohms<br>&nbsp;&nbsp; <b>R<sub>3</sub></b> = [Math.round(r3.resistance)] ohms<br>&nbsp;&nbsp; <b>R<sub>4</sub></b> = [Math.round(r4.resistance)] ohms<br>&nbsp;&nbsp; <b>C<sub>1</sub></b> = [Math.round(10*c1.capacitance * 1000000)/10] microf<br>&nbsp;&nbsp; <b>L<sub>1</sub></b> =[ Math.round(10*l1.inductance * 1000) / 10] milihenries",
       "questions": [
         {
-          "prompt": "Measure the voltages across all the different components using the multimeter and the oscilloscope. Then answer the questions below",
+          "prompt": "Use the function generator to change the frequency and measure the voltages across all the different components using either the multimeter or the oscilloscope (or both). Then answer the questions below",
           "subquestions": [
             {
               "radio": "true",
@@ -103,6 +103,38 @@
             {
               "radio": "true",
               "prompt": "Does the voltage across R<sub>4</sub> change when you change the frequency?",
+              "options": [ 
+                {
+                "option": "No",
+                "points": "0",
+                "feedback": "That's not right. Try again."
+                },
+                {
+                "option": "Yes",
+                "points": "10",
+                "feedback": "Correct!"
+                }
+              ]
+            },
+            {
+              "radio": "true",
+              "prompt": "Do the voltages across R<sub>1</sub>, R<sub>2</sub>, and R<sub>3</sub> add up to the voltage put out by the function generator?",
+              "options": [ 
+                {
+                "option": "No",
+                "points": "0",
+                "feedback": "That's not right. Try again."
+                },
+                {
+                "option": "Yes",
+                "points": "10",
+                "feedback": "Correct!"
+                }
+              ]
+            },
+            {
+              "radio": "true",
+              "prompt": "Do the voltages across R<sub>4</sub>, C, and L add up to the voltage put out by the function generator?",
               "options": [ 
                 {
                 "option": "Yes",
