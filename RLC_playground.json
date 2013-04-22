@@ -91,12 +91,11 @@
               "options": [ 
                 {
                 "option": "Yes",
-                "points": "0",
                 "feedback": "That's not right. Try again."
                 },
                 {
                 "option": "No",
-                "points": "10",
+                "points": "100",
                 "feedback": "Correct!"
                 }
               ]
@@ -108,12 +107,11 @@
               "options": [ 
                 {
                 "option": "No",
-                "points": "0",
                 "feedback": "That's not right. Try again."
                 },
                 {
                 "option": "Yes",
-                "points": "10",
+                "points": "100",
                 "feedback": "Correct!"
                 }
               ]
@@ -125,12 +123,11 @@
               "options": [ 
                 {
                 "option": "No",
-                "points": "0",
                 "feedback": "That's not right. Try again."
                 },
                 {
                 "option": "Yes",
-                "points": "10",
+                "points": "100",
                 "feedback": "Correct!"
                 }
               ]
@@ -142,12 +139,11 @@
               "options": [ 
                 {
                 "option": "Yes",
-                "points": "0",
                 "feedback": "That's not right. Try again."
                 },
                 {
                 "option": "No",
-                "points": "10",
+                "points": "100",
                 "feedback": "Correct!"
                 }
               ]
