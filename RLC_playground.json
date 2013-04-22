@@ -87,6 +87,7 @@
           "subquestions": [
             {
               "radio": "true",
+              "prompt": "Does the voltage across R<sub>1</sub> change when you change the frequency?",
               "shortPrompt": "Does the voltage across R<sub>1</sub> change when you change the frequency?",
               "options": [ 
                 {
