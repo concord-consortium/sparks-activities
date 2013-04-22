@@ -82,7 +82,9 @@
       "notes": "For this circuit:<br>&nbsp;&nbsp; <b>R<sub>1</sub></b> = [Math.round(r1.resistance)] ohms<br>&nbsp;&nbsp; <b>R<sub>2</sub></b> = [Math.round(r2.resistance)] ohms<br>&nbsp;&nbsp; <b>R<sub>3</sub></b> = [Math.round(r3.resistance)] ohms<br>&nbsp;&nbsp; <b>R<sub>4</sub></b> = [Math.round(r4.resistance)] ohms<br>&nbsp;&nbsp; <b>C<sub>1</sub></b> = [Math.round(10*c1.capacitance * 1000000)/10] microf<br>&nbsp;&nbsp; <b>L<sub>1</sub></b> =[ Math.round(10*l1.inductance * 1000) / 10] milihenries",
       "questions": [
         {
-          "prompt": "Use the function generator to change the frequency and measure the voltages across all the different components using either the multimeter or the oscilloscope (or both). Then answer the questions below.",
+          "prompt": "Use the function generator to change the frequency and measure the voltages across all the different components using either the multimeter or the oscilloscope (or both). Then answer the questions below.
+          
+          ",
         "shortPrompt": "",
           "subquestions": [
             {
@@ -104,6 +106,7 @@
             },
             {
               "radio": "true",
+              "prompt": "Does the voltage across R<sub>4</sub> change when you change the frequency?",
               "shortPrompt": "Does the voltage across R<sub>4</sub> change when you change the frequency?",
               "options": [ 
                 {
@@ -120,6 +123,7 @@
             },
             {
               "radio": "true",
+              "prompt": "Do the voltages across R<sub>1</sub>, R<sub>2</sub>, and R<sub>3</sub> add up to the voltage put out by the function generator?",
               "shortPrompt": "Do the voltages across R<sub>1</sub>, R<sub>2</sub>, and R<sub>3</sub> add up to the voltage put out by the function generator?",
               "options": [ 
                 {
@@ -136,6 +140,7 @@
             },
             {
               "radio": "true",
+              "prompt": "Do the voltages across R<sub>4</sub>, C, and L add up to the voltage put out by the function generator?",
               "shortPrompt": "Do the voltages across R<sub>4</sub>, C, and L add up to the voltage put out by the function generator?",
               "options": [ 
                 {
