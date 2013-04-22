@@ -84,7 +84,22 @@
         {
           "prompt": "Measure the voltages across all the different components using the multimeter and the oscilloscope. Then answer the questions below",
           "subquestions": [
-            {}
+            {
+              "radio": "true",
+              "prompt": "Does the voltage across R<sub>1</sub> change when you change the frequency?",
+              "options": [ 
+                {
+                "option": "Yes",
+                "points": "0",
+                "feedback": "That's not right. Try again."
+                },
+                {
+                "option": "No",
+                "points": "10",
+                "feedback": "Correct!"
+                }
+              ]
+            }
           ]
         }
       ]
