@@ -83,6 +83,8 @@
       "questions": [
         {
           "prompt": "Use the function generator to change the frequency and measure the voltages across all the different components using either the multimeter or the oscilloscope (or both). Then answer the questions below",
+          
+        "shortPrompt": "",
           "subquestions": [
             {
               "radio": "true",
