@@ -1,19 +1,12 @@
 {
-  "id": "parallel-resistances",
-  "key": "parallel-resistances",
-  "value": {
-    "rev": "2-dfa5852524c4174e8677ea4474722ea5"
-  },
-  "doc": {
-    "_id": "parallel-resistances",
-    "_rev": "2-dfa5852524c4174e8677ea4474722ea5",
-    "type": "activity",
-    "sections": [
-      "parallel-c",
-      "parallel-d",
-      "parallel-e",
-      "parallel-f"
-    ],
-    "title": "Parallel Resistances"
-  }
+  "_id": "parallel-resistances",
+  "_rev": "2-dfa5852524c4174e8677ea4474722ea5",
+  "type": "activity",
+  "sections": [
+    "parallel-c",
+    "parallel-d",
+    "parallel-e",
+    "parallel-f"
+  ],
+  "title": "Parallel Resistances"
 }

@@ -1,11 +1,4 @@
 {
-  "id": "LR parallel",
-  "key": "LR parallel",
-  "value": {
-    "rev": "1-967a00dff5e02add41819138abb3284d"
-  },
-  "doc": {
-    "_id": "LR-parallel",
-    "_rev": "1-967a00dff5e02add41819138abb3284d"
-  }
+  "_id": "LR-parallel",
+  "_rev": "1-967a00dff5e02add41819138abb3284d"
 }

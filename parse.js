@@ -16,7 +16,7 @@ function woo () {
 		if (~id.indexOf("/")) continue;
 
 		row.doc._id = id = id.replace(/ /g, "-");
-		fs.writeFileSync(id+".json", JSON.stringify(row, null, 2));
+		fs.writeFileSync(id+".json", JSON.stringify(row.doc, null, 2));
 	}
 
 }

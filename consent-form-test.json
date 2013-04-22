@@ -1,16 +1,9 @@
 {
-  "id": "consent-form-test",
-  "key": "consent-form-test",
-  "value": {
-    "rev": "2-f58441062c8547d9f89ed23e65c32d08"
-  },
-  "doc": {
-    "_id": "consent-form-test",
-    "_rev": "2-f58441062c8547d9f89ed23e65c32d08",
-    "pages": [
-      {
-        "notes": "consent"
-      }
-    ]
-  }
+  "_id": "consent-form-test",
+  "_rev": "2-f58441062c8547d9f89ed23e65c32d08",
+  "pages": [
+    {
+      "notes": "consent"
+    }
+  ]
 }
