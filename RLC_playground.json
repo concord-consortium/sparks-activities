@@ -95,7 +95,7 @@
                 },
                 {
                 "option": "No",
-                "points": "100",
+                "points": "50",
                 "feedback": "Correct!"
                 }
               ]
@@ -111,7 +111,7 @@
                 },
                 {
                 "option": "Yes",
-                "points": "100",
+                "points": "50",
                 "feedback": "Correct!"
                 }
               ]
