@@ -87,7 +87,7 @@
           "subquestions": [
             {
               "radio": "true",
-              "prompt": "Does the voltage across R<sub>1</sub> change when you change the frequency?",
+              "shortPrompt": "Does the voltage across R<sub>1</sub> change when you change the frequency?",
               "options": [ 
                 {
                 "option": "Yes",
@@ -103,7 +103,7 @@
             },
             {
               "radio": "true",
-              "prompt": "Does the voltage across R<sub>4</sub> change when you change the frequency?",
+              "shortPrompt": "Does the voltage across R<sub>4</sub> change when you change the frequency?",
               "options": [ 
                 {
                 "option": "No",
@@ -119,7 +119,7 @@
             },
             {
               "radio": "true",
-              "prompt": "Do the voltages across R<sub>1</sub>, R<sub>2</sub>, and R<sub>3</sub> add up to the voltage put out by the function generator?",
+              "shortPrompt": "Do the voltages across R<sub>1</sub>, R<sub>2</sub>, and R<sub>3</sub> add up to the voltage put out by the function generator?",
               "options": [ 
                 {
                 "option": "No",
@@ -135,7 +135,7 @@
             },
             {
               "radio": "true",
-              "prompt": "Do the voltages across R<sub>4</sub>, C, and L add up to the voltage put out by the function generator?",
+              "shortPrompt": "Do the voltages across R<sub>4</sub>, C, and L add up to the voltage put out by the function generator?",
               "options": [ 
                 {
                 "option": "Yes",
