@@ -16,14 +16,6 @@
         1001
       ],
       "amplitude": 10
-    },
-    {
-      "type": "inductor",
-      "draggable": true,
-      "UID": "L1",
-      "inductance": "0.001",
-      "connections": "c5,c11",
-      "label": "L1"
     }
-]
+  ]
 }
