@@ -2,7 +2,7 @@
   "_id": "RLC_playground",
   "_rev": "22-a202695c4de0dcc41a942fa9ffdb00ba",
   "title": "Measuring an RLC Series Circuit with DMM and Oscilloscope",
-  "show_multimeter": "true",
+  "show_multimeter": "false",
   "show_oscilloscope": "true",
   "allow_move_yellow_probe": "true",
   "circuit": [
