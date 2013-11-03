@@ -18,4 +18,10 @@
       "amplitude": 10
     }
   ]
+},
+  "pages": [
+    {
+      "notes": "Documentation goes here."
+    }
+  ]
 }
