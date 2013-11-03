@@ -17,15 +17,5 @@
       ],
       "amplitude": 10
     }
-  ],
-  "pages": [
-    {
-      "notes": "For this circuit:",
-      "questions": [
-        {
-          "prompt": "<b>LC in parallel.</b><br>Observe the resonant behavior of the circuit. What happens at resonance? What frequency? Given the value for C, determine the inductance of unlabeled L."
-        }
-      ]
-    }
   ]
 }
