@@ -20,6 +20,7 @@
   ],
   "pages": [
     {
+      "note": "Note",
       "questions": [
         {
           "prompt": "This is a sample RLC circuit with draggable components. Click on the button that reads 'Add a new component, choose a component and drag it onto the breadboard. You can move components around and stretch their leads by clicking and dragging."
