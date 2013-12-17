@@ -1,7 +1,7 @@
 {
   "_id": "circuit-creator",
   "_rev": "2-98a65aed7736c449a5509c9b3e0cc7d8",
-  "title": "RLC Circuit with draggable components",
+  "title": "Empty breadboard with draggable components",
   "show_multimeter": "true",
   "show_oscilloscope": "true",
   "showComponentDrawer": "true",
@@ -20,12 +20,7 @@
   ],
   "pages": [
     {
-      "notes": "Note written",
-      "questions": [
-        {
-          "prompt": "Click on the that reads 'Add a new component, choose a component and drag it onto the breadboard. You can move components around and stretch their leads by clicking and dragging."
-        }
-      ]
+      "notes": "Click on the button that reads 'Add a new component.' Choose a component and drag it onto the breadboard. You can move components around and stretch their leads by clicking on them and dragging. Edit a component by double-clicking it."
     }
   ]
 }
