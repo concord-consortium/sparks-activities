@@ -31,6 +31,15 @@
         "type": "wire",
         "connections": "left_negative3,a3"
     }],
+    "faults": [
+      {
+        "type": [
+          "shorted",
+          "open"
+        ],
+        "count": 1
+      }
+    ],
     "pages": [{
         "questions": [{
             "prompt": "One, <i>and only one,</i> of these resistors is either shorted or open. <i>Using as few measurments as possible,</i> find the bad resistor and determine whether it is shorted or open.",
