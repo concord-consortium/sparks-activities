@@ -54,7 +54,7 @@
                 }],
                 "keepOrder": "true",
                 "points": 10,
-                "scoring": "var badResistorName; if (r1.resistance > 1e12)||(r1.resistance < 1e-5) {badResistorName = 'R1'} else if (r2.resistance > 1e12)||(r2.resistance < 1e-5) { badResistorName = 'R2' } else if (r3.resistance > 1e12)||(r3.resistance < 1e-5) { badResistorName = 'R3' } else if (r4.resistance > 1e12)||(r4.resistance < 1e-5) {badResistorName = 'R4'}; if (question.answer === badResistorName) {question.points_earned = 10} question.correct_answer = badResistorName"
+                "scoring": "var badResistorName; if ((r1.resistance > 1e12)||(r1.resistance < 1e-5)) {badResistorName = 'R1'} else if ((r2.resistance > 1e12)||(r2.resistance < 1e-5)) { badResistorName = 'R2' } else if ((r3.resistance > 1e12)||(r3.resistance < 1e-5)) { badResistorName = 'R3' } else if ((r4.resistance > 1e12)||(r4.resistance < 1e-5)) {badResistorName = 'R4'}; if (question.answer === badResistorName) {question.points_earned = 10} question.correct_answer = badResistorName"
             }, {
                 "prompt": "Is it shorted or open?",
                 "options": [{
