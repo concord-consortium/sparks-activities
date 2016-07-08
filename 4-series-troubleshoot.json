@@ -64,7 +64,7 @@
                 }],
                 "keepOrder": "true",
                 "points": 5,
-                "scoring": "var natureOfFault; if ((r1.resistance > 1e12)||(r2.resistance > 1e12)||(r3.resistance > 1e12)||(r4.resistance > 1e12)) {natureOfFault = 'Open'} else if (r1.resistance < 1e-5)||(r2.resistance < 1e-5)||(r3.resistance < 1e-5)||(r4.resistance < 1e-5) {natureOfFault = 'Shorted'}; if (question.answer === natureOfFault) {question.points_earned = 5} question.correct_answer = natureOfFault"
+                "scoring": "var natureOfFault; if ((r1.resistance > 1e12)||(r2.resistance > 1e12)||(r3.resistance > 1e12)||(r4.resistance > 1e12)) {natureOfFault = 'Open'} else if ((r1.resistance < 1e-5)||(r2.resistance < 1e-5)||(r3.resistance < 1e-5)||(r4.resistance < 1e-5)) {natureOfFault = 'Shorted'}; if (question.answer === natureOfFault) {question.points_earned = 5} question.correct_answer = natureOfFault"
             }]
         }]
     }]
