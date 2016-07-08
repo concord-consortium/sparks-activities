@@ -1,7 +1,7 @@
 {
   "_id": "4-resistors-series-troubleshoot",
   "_rev": "21-51660cc6013cf19e66416a2bdd2d0be2",
-  "title": "Four resistor circuit for bug finding",
+  "title": "Troubleshooting four resistors in series",
   "show_multimeter": "true",
   "disable_multimeter_position": "r",
   "circuit": [
