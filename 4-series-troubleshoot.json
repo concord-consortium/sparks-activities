@@ -7,27 +7,22 @@
     "circuit": [{
         "type": "resistor",
         "UID": "r1",
-        "connections": "c23,c17",
+        "connections": "c27,c21",
         "label": "R1"
     }, {
         "type": "resistor",
         "UID": "r2",
-        "connections": "b17,b11",
+        "connections": "b21,b15",
         "label": "R2"
     }, {
         "type": "resistor",
         "UID": "r3",
-        "connections": "d17,d11",
+        "connections": "d15,d9",
         "label": "R3"
     }, {
         "type": "resistor",
         "UID": "r4",
-        "connections": "e17,e11",
-        "label": "R4"
-    }, {
-        "type": "resistor",
-        "UID": "r4",
-        "connections": "c11,c5",
+        "connections": "b9,b3",
         "label": "R4"
     }, {
         "type": "wire",
