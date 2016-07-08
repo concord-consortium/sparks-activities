@@ -26,16 +26,10 @@
         "label": "R4"
     }, {
         "type": "wire",
-        "connections": "left_positive20,a30"
+        "connections": "left_positive20,a27"
     }, {
         "type": "wire",
-        "connections": "left_negative3,a1"
-    }, {
-        "type": "wire",
-        "connections": "a30,e23"
-    }, {
-        "type": "wire",
-        "connections": "a1,a5"
+        "connections": "left_negative3,a3"
     }],
     "pages": [{
         "questions": [{
